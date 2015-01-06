@@ -17,19 +17,23 @@ Usage
 =====
 
 ```javascript
-require(js-text-marker);
+require('js-text-marker');
 
 var snippet_to_be_marked = "text";
-var text = "Some text to be marked. After used TextMaker in this text it will return this text with desired text marked.";
+var text = "Some text to be marked. After used TextMaker in this text " +
+           "it will return this text with desired text marked.";
 
 var tm_tag1 = new Tag('h1', 'yellow', 'black');
 var tm = new JsTextMarker(text);
 
-var text_with_all_ocurrence_of_snipped_marked = tm.mark_all_ocurrence_of(snippet_to_be_marked, tm_tag1);
+var text_with_all_ocurrence_of_snipped_marked = tm.mark_all_ocurrence_of(
+    snippet_to_be_marked, tm_tag1);
 
-var text_with_all_ocurrences_of_snipped_marked = tm.mark_all_ocurrence_of(snippet_to_be_marked, new Tag(span));
+var text_with_all_ocurrences_of_snipped_marked = tm.mark_all_ocurrence_of(
+    snippet_to_be_marked, new Tag(span));
 
-var text_with_first_ocurrence_of_snipped_marked = tm.mark_first_ocurrence_of(snippet_to_be_marked, new Tag('span', 'yellow'));
+var text_with_first_ocurrence_of_snipped_marked = tm.mark_first_ocurrence_of(
+    snippet_to_be_marked, new Tag('span', 'yellow'));
 ```
 
 Author
