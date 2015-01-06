@@ -1,0 +1,19 @@
+{
+  "author": "Geison Goes",
+  "name": "js-text-marker",
+  "description": "Node lib that mark string in a text. It is possible mark the text with html tags.",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/geisonfgf/js-text-marker"
+  },
+  "main": "./lib/main",
+  "bin": {
+    "js-text-marker": "./bin/js-text-marker"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
