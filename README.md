@@ -11,7 +11,7 @@ Gemfile
 
 1) run this line in your prompt
 
-    $ npm install text-marker
+    $ npm install js-text-marker
 
 Usage
 =====
