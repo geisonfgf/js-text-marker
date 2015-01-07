@@ -17,7 +17,7 @@ Usage
 =====
 
 ```javascript
-require('js-text-marker');
+var JsTextMarker = require('js-text-marker');
 
 var snippet_to_be_marked = "text";
 var text = "Some text to be marked. After used TextMaker in this text " +
